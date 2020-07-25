@@ -151,16 +151,13 @@ p {
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
 .btn{
-  text-transform: uppercase;
-  background: transparent;
-  color: var(--clr-black);
-  padding: 0.295rem 0.75rem;
-  letter-spacing: var(--spacing);
+  
+  padding: 0.255rem 0.75rem;
   display: inline-block;
   transition: var(--transition);
-  font-size: 0.575rem;
+  font-size: 0.475rem;
   border: 2px solid var(--clr-black);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
